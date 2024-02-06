@@ -194,3 +194,18 @@ label{
     box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
 
 }
+@media (max-width: 576px) {
+    #contact {
+        padding-top: 15%; /* Adjust padding for smaller screens */
+    }
+
+    #contact iframe {
+        width: 100%; /* Make the Google Maps iframe responsive */
+        height: 300px; /* Adjust the height as needed */
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    .col-lg-5 {
+        margin-top: 10px; /* Adjust margin for the form on smaller screens */
+    }
+}
