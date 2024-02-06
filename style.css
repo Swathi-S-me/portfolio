@@ -200,7 +200,7 @@ label{
     }
 
     #contact iframe {
-        width: 100%; /* Make the Google Maps iframe responsive */
+        width: 50%; /* Make the Google Maps iframe responsive */
         height: 300px; /* Adjust the height as needed */
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
     }
